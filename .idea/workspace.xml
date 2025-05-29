@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a154dc4-bdc6-472d-8954-4ad2a99e98ae" name="Changes" comment="" />
+    <list default="true" id="6a154dc4-bdc6-472d-8954-4ad2a99e98ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Aula3/Aula3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +23,31 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EduardoKtzz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EduardoKtzz/Studying-JDBC.git",
+    "accountId": "e2719923-b8f9-415f-b326-5b51131ebda1"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2xkVF6K3P4Pu6uNhLH6pkfsrWAX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,9 +58,12 @@
     "Application.Program_InserirDados.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula2/src",
-    "onboarding.tips.debug.path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula2/src/Main.java",
+    "last_opened_file_path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula3/src",
+    "onboarding.tips.debug.path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula3/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -42,6 +72,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula3\src" />
+      <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula3" />
       <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula2\src" />
       <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula2/" />
       <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula2\src\db" />
