@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a154dc4-bdc6-472d-8954-4ad2a99e98ae" name="Changes" comment="Aula 3">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+    <list default="true" id="6a154dc4-bdc6-472d-8954-4ad2a99e98ae" name="Changes" comment="Aula 4 e updates">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -37,7 +36,7 @@
   }
 }]]></component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -53,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Program.executor": "Run",
+    "Application.ProgramTransacoes.executor": "Run",
     "Application.Program_DeletarDados.executor": "Run",
     "Application.Program_InserirDados.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -61,8 +61,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula4/src",
-    "onboarding.tips.debug.path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula4/src/Main.java",
+    "last_opened_file_path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula5/src",
+    "onboarding.tips.debug.path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula5/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -71,11 +71,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula5\src" />
       <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula4\src" />
       <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula3\src" />
       <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula3" />
       <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula2\src" />
-      <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula2/" />
     </key>
   </component>
   <component name="TaskManager">
@@ -102,12 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748562630726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aula 4 e updates">
+      <option name="closed" value="true" />
+      <created>1748566782555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748566782556</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aula 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 3" />
+    <MESSAGE value="Aula 4 e updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 4 e updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
