@@ -5,6 +5,7 @@ import Model.Dao.SellerDao;
 import Model.Entities.Department;
 import Model.Entities.Seller;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public class Program {
@@ -34,5 +35,12 @@ public class Program {
         for (Seller obj : list) {
             System.out.println(obj);
         }
+
+        //Inserindo dados no banco de dados
+        System.out.println();
+        System.out.println("=== TESTE 4: Insert Seller ===");
+        Seller newSeller = new Seller(null, "Suellen", "Susu@gmail.com", LocalDate.now(), 4000.0, department);
+        sellerDao.insert(newSeller);
+        System.out.println("Inserted! New id = " + newSeller.getId());
     }
 }
