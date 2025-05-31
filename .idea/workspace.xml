@@ -7,10 +7,8 @@
     <list default="true" id="6a154dc4-bdc6-472d-8954-4ad2a99e98ae" name="Changes" comment="Aula 6 (Project DAO) update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula6/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula6/src/Model/Dao/SellerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Model/Dao/SellerDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/SellerDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aula6/Application/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aula6/Application/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aula6/Model/Dao/SellerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aula6/Model/Dao/SellerDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aula6/Model/Deo/impl/SellerDaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aula6/Model/Deo/impl/SellerDaoJDBC.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748728706197</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Aula 6 (Project DAO) update">
+      <option name="closed" value="true" />
+      <created>1748729941893</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748729941893</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
