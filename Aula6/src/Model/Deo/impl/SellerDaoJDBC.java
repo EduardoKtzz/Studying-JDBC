@@ -53,18 +53,8 @@ public class SellerDaoJDBC implements SellerDao {
 
             //Aqui vamos transformar os dados da tabela em dados instanciados para recebemos em JDBC
             if(rs.next()) {
-                Department dep = new Department();  //Instancindo um departamento
-                dep.setId(rs.getInt("DepartmentId"));  //Definindo de que coluna ele vai pegar o id do departamento
-                dep.setName(rs.getString("DepName")); //Defindindo da onde pegamos o nome do departamento
-
-                Seller obj = new Seller();  //Criando um vendedor
-                //Daqui pra baixo vamos definir quais colunas do SQL vão definir os nossos dados
-                obj.setId(rs.getInt("Id"));
-                obj.setName(rs.getString("Name"));
-                obj.setEmail(rs.getString("Email"));
-                obj.setBaseSalary(rs.getDouble("BaseSalary"));
-                obj.setBirthDate(rs.getDate("BirthDate").toLocalDate());
-                obj.setDepartment(dep);
+                Department dep = instantiateDepartment(rs);
+                Seller obj = instantiateSeller(rs, dep);
                 return obj;
             }
             return null;
@@ -77,6 +67,25 @@ public class SellerDaoJDBC implements SellerDao {
             DB.closeResultSet(rs);
         }
 
+    }
+
+    private Seller instantiateSeller(ResultSet rs, Department dep) throws SQLException {
+        Seller obj = new Seller();  //Criando um vendedor
+        //Daqui pra baixo vamos definir quais colunas do SQL vão definir os nossos dados
+        obj.setId(rs.getInt("Id"));
+        obj.setName(rs.getString("Name"));
+        obj.setEmail(rs.getString("Email"));
+        obj.setBaseSalary(rs.getDouble("BaseSalary"));
+        obj.setBirthDate(rs.getDate("BirthDate").toLocalDate());
+        obj.setDepartment(dep);
+        return obj;
+    }
+
+    private Department instantiateDepartment(ResultSet rs) throws SQLException {
+        Department dep = new Department();  //Instanciando um departamento
+        dep.setId(rs.getInt("DepartmentId"));  //Definindo de que coluna ele vai pegar o id do departamento
+        dep.setName(rs.getString("DepName")); //Definindo da onde pegamos o nome do departamento
+        return dep;
     }
 
     @Override

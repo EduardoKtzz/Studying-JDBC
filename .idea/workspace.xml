@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a154dc4-bdc6-472d-8954-4ad2a99e98ae" name="Changes" comment="Aula 6 (Project DAO) update">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula6/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula6/src/Model/Dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Model/Dao/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748658725841</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Aula 6 (Project DAO) update">
+      <option name="closed" value="true" />
+      <created>1748728229335</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748728229335</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Aula 6 (Project DAO) update">
+      <option name="closed" value="true" />
+      <created>1748728238803</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1748728238803</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
