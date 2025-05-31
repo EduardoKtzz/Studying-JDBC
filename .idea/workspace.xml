@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a154dc4-bdc6-472d-8954-4ad2a99e98ae" name="Changes" comment="Aula 6 (Project DAO) update">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula6/src/Application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula6/src/Model/Dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Model/Dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Program.executor": "Run",
-    "Application.ProgramTransacoes.executor": "Run",
-    "Application.Program_DeletarDados.executor": "Run",
-    "Application.Program_InserirDados.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula6/src",
-    "onboarding.tips.debug.path": "C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula6/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProgramTransacoes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program_DeletarDados.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program_InserirDados.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula6/src&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Eduar/Documentos/Programação/Java/JDBC/Aula6/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Eduar\Documentos\Programação\Java\JDBC\Aula6\src" />
@@ -151,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748657396510</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Aula 6 (Project DAO) update">
+      <option name="closed" value="true" />
+      <created>1748658725841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748658725841</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
