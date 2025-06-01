@@ -16,7 +16,7 @@ public class Program2 {
         departmentDao.insert(department);
         System.out.println("Inserted done! new id: " + department.getId());
 
-        //Procurando um departamento pelo ID
+        //Procurando um departamento pelo 'ID'
         System.out.println();
         System.out.println("=== TEST 2 - findByID department ===");
         department = departmentDao.findById(1);
@@ -25,6 +25,13 @@ public class Program2 {
         //Testando o metodo para atualizar dados de um departamento
         System.out.println();
         System.out.println("=== TEST 3 - Update department ===");
+        department = departmentDao.findById(6);
+        department.setName("Anime");
+        departmentDao.update(department);
+        System.out.println("Update done!");
+
+        System.out.println();
+        System.out.println("=== TEST 4 - Delete department ===");
 
     }
 }
