@@ -11,10 +11,14 @@ public class Program2 {
         DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
 
         //Testando o metodo para inserir dados no banco de dados
-        System.out.println("=== TEST 1 - Inserir departamento novo ===");
+        System.out.println("=== TEST 1 - Insert new department ===");
         Department department = new Department(null, "Food");
         departmentDao.insert(department);
         System.out.println("Inserted done! new id: " + department.getId());
+
+        //Testando o metodo para atualizar dados de um departamento
+        System.out.println();
+        System.out.println("=== TEST 2 - Update department ===");
 
     }
 }
