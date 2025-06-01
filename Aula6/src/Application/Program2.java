@@ -16,9 +16,15 @@ public class Program2 {
         departmentDao.insert(department);
         System.out.println("Inserted done! new id: " + department.getId());
 
+        //Procurando um departamento pelo ID
+        System.out.println();
+        System.out.println("=== TEST 2 - findByID department ===");
+        department = departmentDao.findById(1);
+        System.out.println(department);
+
         //Testando o metodo para atualizar dados de um departamento
         System.out.println();
-        System.out.println("=== TEST 2 - Update department ===");
+        System.out.println("=== TEST 3 - Update department ===");
 
     }
 }

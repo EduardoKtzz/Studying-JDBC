@@ -46,7 +46,7 @@ public class Program {
         sellerDao.insert(newSeller);
         System.out.println("Inserted! New id = " + newSeller.getId());
 
-        //Inserindo dados no banco de dados
+        //Atualizando dados no banco de dados de vendedores
         System.out.println();
         System.out.println("=== TESTE 5: Update Seller ===");
         seller = sellerDao.findById(8);
@@ -54,7 +54,7 @@ public class Program {
         sellerDao.update(seller);
         System.out.println("Update completed");
 
-        //Inserindo dados no banco de dados
+        //Deletar dados no banco de dados de vendedores
         System.out.println();
         System.out.println("=== TESTE 6: Delete Seller ===");
         System.out.println("Enter id for delete test");
