@@ -2,6 +2,7 @@ package Application;
 
 import Model.Dao.DaoFactory;
 import Model.Dao.DepartmentDao;
+import Model.Entities.Department;
 
 public class Program2 {
     public static void main(String[] args) {
@@ -11,8 +12,9 @@ public class Program2 {
 
         //Testando o metodo para inserir dados no banco de dados
         System.out.println("=== TEST 1 - Inserir departamento novo ===");
-
-
+        Department department = new Department(null, "Food");
+        departmentDao.insert(department);
+        System.out.println("Inserted done! new id: " + department.getId());
 
     }
 }
