@@ -7,19 +7,22 @@ import Model.Entities.Seller;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+
         //Chamando o metodo de criar usuário na classe Factory
         SellerDao sellerDao = DaoFactory.createSellerDao();
 
-        //Usando o metodo de buscar vendedor por ID
+        //Usando o metodo de buscar vendedor por ‘ID’
         System.out.println("=== TESTE 1: Seller findById ===");
         Seller seller = sellerDao.findById(3);
         System.out.println(seller);
 
-        //Testando o metodo para buscar vendedores pelo id do departamento
+        //Testando o metodo para buscar vendedores pelo ‘id’ do departamento
         System.out.println();
         System.out.println("=== TESTE 2: Seller findByDepartment ===");
         Department department = new Department(1, null);
@@ -50,5 +53,13 @@ public class Program {
         seller.setName("Pedro Junior");
         sellerDao.update(seller);
         System.out.println("Update completed");
+
+        //Inserindo dados no banco de dados
+        System.out.println();
+        System.out.println("=== TESTE 6: Delete Seller ===");
+        System.out.println("Enter id for delete test");
+        int id = sc.nextInt();
+        sellerDao.deleteById(id);
+        System.out.println("Delete completed");
     }
 }
