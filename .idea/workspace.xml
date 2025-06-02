@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula6/src/Application/Program2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Application/Program2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/DepartmentDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/DepartmentDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Aula6/src/Model/Deo/impl/SellerDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aula6/Application/Program2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aula6/Application/Program2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Aula6/Model/Deo/impl/DepartmentDaoJDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Aula6/Model/Deo/impl/DepartmentDaoJDBC.class" afterDir="false" />
     </list>
@@ -275,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748818933677</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Aula 6 (Project DAO) update (Departament)">
+      <option name="closed" value="true" />
+      <created>1748826665007</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1748826665007</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

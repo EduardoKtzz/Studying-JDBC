@@ -208,7 +208,7 @@ public class SellerDaoJDBC implements SellerDao {
         }
     }
 
-    //Metodo para buscar todos vendedores com base no departamento que ele é
+    //Metodo para buscar todos os vendedores com base no departamento que ele é
     @Override
     public List<Seller> findByDepartment(Department department) {
         PreparedStatement st = null;

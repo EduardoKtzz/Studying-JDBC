@@ -4,9 +4,10 @@ import Model.Dao.DepartmentDao;
 import Model.Entities.Department;
 import db.DB;
 import db.DbException;
-
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class DepartmentDaoJDBC implements DepartmentDao {
 
@@ -33,7 +34,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
                          (?)
                          """, Statement.RETURN_GENERATED_KEYS);
 
-            st.setString(1, obj.getName());
+            st.setString(1, obj.getName()); //Configura qual valor o "?" recebe
 
             //Verificando quantas linhas foram afetadas pelo insert e caso seja 0, ele dispara um erro
             int rowsAffected = st.executeUpdate();
@@ -57,6 +58,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
         }
     }
 
+    //Metodo para atualizar dados do banco de dados
     @Override
     public void update(Department obj) {
         PreparedStatement st = null;
@@ -85,6 +87,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
         }
     }
 
+    //Metodo para deletar dados de um banco de dados com base no id
     @Override
     public void deleteById(Integer id) {
         PreparedStatement st = null;
@@ -108,6 +111,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
         }
     }
 
+    //Metodo para encontrar um departamento no banco de dados pelo "ID" dele
     @Override
     public Department findById(Integer id) {
 
@@ -142,7 +146,35 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 
     @Override
     public List<Department> findAll() {
-        return List.of();
+        PreparedStatement st = null;
+        ResultSet rs = null;
+
+        try {
+            st = conn.prepareStatement(
+                    """
+                           SELECT department.*
+                           FROM department
+                         """ );
+
+            rs = st.executeQuery(); //Executar
+
+            //Criando lista para armazenar os valores
+            List<Department> list = new ArrayList<>();
+
+            //Preenchendo a lista com o dados
+            while (rs.next()) {
+                Department dep = instantiateDepartment(rs);
+                list.add(dep);
+            }
+            return list;
+        }
+        catch (SQLException e) {
+            throw new DbException(e.getMessage());
+        }
+        finally {
+            DB.closeStatement(st);
+            DB.closeResultSet(rs);
+        }
     }
 
     private Department instantiateDepartment(ResultSet rs) throws SQLException {
@@ -151,5 +183,4 @@ public class DepartmentDaoJDBC implements DepartmentDao {
         dep.setName(rs.getString("Name"));
         return dep;
     }
-
 }

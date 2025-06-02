@@ -4,6 +4,8 @@ import Model.Dao.DaoFactory;
 import Model.Dao.DepartmentDao;
 import Model.Entities.Department;
 
+import java.util.List;
+
 public class Program2 {
     public static void main(String[] args) {
 
@@ -35,5 +37,13 @@ public class Program2 {
         System.out.println("=== TEST 4 - Delete department ===");
         departmentDao.deleteById(7);
         System.out.println("Delete done!");
+
+        //Testando o metodo para puxar todos os dados dos departamentos
+        System.out.println();
+        System.out.println("=== TEST 4 - All department ===");
+        List<Department> list = departmentDao.findAll();
+        for (Department tabelaDepartamento : list) {
+            System.out.println(tabelaDepartamento);
+        }
     }
 }
