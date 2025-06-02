@@ -30,8 +30,10 @@ public class Program2 {
         departmentDao.update(department);
         System.out.println("Update done!");
 
+        //Testando o metodo para deletar dados de um departamento
         System.out.println();
         System.out.println("=== TEST 4 - Delete department ===");
-
+        departmentDao.deleteById(7);
+        System.out.println("Delete done!");
     }
 }
